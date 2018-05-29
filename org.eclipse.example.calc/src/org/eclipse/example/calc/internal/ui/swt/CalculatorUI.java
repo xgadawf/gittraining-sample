@@ -85,6 +85,9 @@ public class CalculatorUI implements TextProvider, SelectionListener {
 		calculator.setClearText(true);
 	}
 
+	/**
+	 * wichtige Kommentare
+	 */
 	private void setupNumberButtons() {
 		Composite numberButtonsPanel = new Composite(shell, SWT.NONE);
 		numberButtonsPanel.setLayout(new GridLayout(4, true));

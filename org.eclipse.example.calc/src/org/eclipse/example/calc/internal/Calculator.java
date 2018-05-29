@@ -20,6 +20,9 @@ import org.eclipse.example.calc.internal.operations.Square;
 
 public class Calculator {
 
+	/**
+	 * Kommentar?
+	 */
 	private TextProvider textProvider;
 
 	private String cmd;
@@ -40,6 +43,7 @@ public class Calculator {
 		new Minus();
 		new Plus();
 		new Square();
+		// ach ne - hier soll was rein? Nur in anderen Branches
 	}
 
 	private void calculate(String cmdName) {
